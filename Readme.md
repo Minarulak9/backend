@@ -30,6 +30,72 @@ This project follows a step-by-step approach to mastering backend development:
 - **bcrypt**: Password hashing library
 - **dotenv**: Environment variable management
 
+## 🧪 Testing with Postman
+Postman is an essential tool for API development and testing. Use it to interact with the endpoints created in this project.
+
+### 🚀 Getting Started with Postman
+#### 1️⃣ Download Postman
+- Download and install Postman from the official website: [Postman Download](https://www.postman.com/downloads/).
+- Follow the installation instructions based on your OS.
+- Open Postman and sign in (optional but recommended for saving requests).
+
+#### 2️⃣ Create a New Request
+- Click on **New** → **Request**.
+- Select the HTTP method (e.g., **GET, POST, PUT, DELETE**).
+- Enter the API endpoint URL in the request field.
+
+#### 3️⃣ Add Request Headers
+- Click on the **Headers** tab.
+- Add necessary headers like:
+  ```
+  Content-Type: application/json
+  Authorization: Bearer <your-token>
+  ```
+
+#### 4️⃣ Add Query Parameters (Optional)
+- Click on the **Params** tab.
+- Enter key-value pairs for query parameters if required (e.g., `?id=123`).
+
+#### 5️⃣ Add Body Data (For POST, PUT, PATCH Requests)
+- Click on the **Body** tab.
+- Select **raw** and choose `JSON`.
+- Enter JSON data, for example:
+  ```json
+  {
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  }
+  ```
+
+#### 6️⃣ Send the Request
+- Click the **Send** button.
+- View the response status code and data in the **Response** section.
+
+#### 7️⃣ Save and Organize Requests
+- Click **Save** to store the request for future use.
+- Create **Collections** to organize multiple requests.
+
+#### 8️⃣ Automate Testing with Tests
+- Click on the **Tests** tab and add JavaScript-based tests:
+  ```js
+  pm.test("Status code is 200", function () {
+      pm.response.to.have.status(200);
+  });
+  ```
+
+#### 9️⃣ Use Environments & Variables
+- Click on **Environments** → **New Environment**.
+- Define variables like `{{base_url}}`, then use them in requests.
+- Example: `{{base_url}}/api/users`.
+
+#### 🔟 View API Logs & Debug
+- Check **Console** (View → Show Postman Console) for debugging.
+- Inspect request/response details to fix errors.
+
+### 🎯 Conclusion
+By following these steps, you can efficiently test APIs using Postman, debug issues, and automate test cases.
+
+
 ## 🔜 Coming Next
 
 
