@@ -1,6 +1,6 @@
 // Import functions from the custom module './4fileSystem'
 // These functions are used to perform various file system operations
-const { createFile, readFile, appendContent, clearContent, deleteFile, renameFile, fileStats, watchFile } = require('./4fileSystem');
+const { createFile, readFile, appendContent, clearContent, deleteFile, renameFile, fileStats, watchFile } = require('./fileSystem');
 
 // Define an asynchronous function 'run' to execute file operations sequentially
 async function run() {
