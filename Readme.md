@@ -2,6 +2,11 @@
 
 This repository documents my journey learning backend development with Node.js, from fundamentals to advanced concepts. It contains practical, real-world examples that demonstrate the progression of skills and knowledge in building robust backend systems.
 
+## 🛠 Prerequisites
+- Basic knowledge of JavaScript
+- Familiarity with Git and command-line tools
+- Understanding of REST APIs & Basic Computing knowledge
+
 ## 🚀 Learning Path
 
 This project follows a step-by-step approach to mastering backend development:
@@ -12,6 +17,12 @@ This project follows a step-by-step approach to mastering backend development:
 4. **Authentication**: Implementing JWT-based auth system
 5. **Advanced Patterns**: Middleware, error handling, and security best practices
 6. **Performance Optimization**: Scaling and improving backend performance
+7. **Fastify**: High-performance backend development with Fastify
+8. **NestJS**: Developing modular and scalable applications with NestJS
+9. **Microservices**: Building distributed systems with microservices architecture
+10. **GraphQL**: Implementing GraphQL APIs for efficient data fetching
+11. **CI/CD & DevOps**: Automating deployments and managing infrastructure
+
 
 ## 📋 What You'll Find Here
 
